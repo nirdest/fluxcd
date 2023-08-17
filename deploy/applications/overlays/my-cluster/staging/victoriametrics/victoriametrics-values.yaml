@@ -1,0 +1,8 @@
+nameOverride: "victoriametrics"
+component: "victoriametrics"
+environment: "staging"
+countryCode: "kz"
+vmselect.ingress.enabled=true 
+'vmselect.ingress.hosts[0].name=vm.10.11.0.64.nip.io'
+vmselect.ingress.annotations.'kubernetes\.io\/ingress\.class'="nginx" 
+'vmselect.ingress.hosts[0].path=\/'
